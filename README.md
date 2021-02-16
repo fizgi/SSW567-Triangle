@@ -1,3 +1,1 @@
-# SSW567-Triangle
-
-This repository includes the Assignment 2 of SSW567 Testing, Qual. Assur. & Maint. class
+[![build status of master](https://travis-ci.com/fizgi/SSW567-Triangle.svg?branch=master)](https://travis-ci.com/fizgi/SSW567-Triangle)
