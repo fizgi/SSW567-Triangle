@@ -1,5 +1,4 @@
-"""
-    The primary goal of this file is to demonstrate a simple unittest implementation
+""" The primary goal of this file is to demonstrate a simple unittest implementation
 
     author: Fatih Izgi
     date: 16-Feb-2021
@@ -41,7 +40,7 @@ class TestTriangles(unittest.TestCase):
     # Isosceles triangle tests
 
     def testIsoscelesTriangleA(self):
-        self.assertEqual(classifyTriangle(2, 2, 4), 'Isosceles', '2,2,4 should be Isosceles')
+        self.assertEqual(classifyTriangle(2, 2, 3), 'Isosceles', '2,2,4 should be Isosceles')
 
     def testIsoscelesTriangleB(self):
         self.assertEqual(classifyTriangle(3, 5, 3), 'Isosceles', '3,5,3 should be Isosceles')
@@ -95,4 +94,3 @@ class TestTriangles(unittest.TestCase):
 if __name__ == '__main__':
     print('Running unit tests')
     unittest.main()
-
